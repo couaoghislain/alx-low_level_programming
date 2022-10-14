@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char n = "abcdefghijklmnopqrstuvwxyz";
-  putchar(n);
+	char n = 'abcdefghijklmnopqrstuvwxyz';
+	putchar(n);
 	return (0);
 }
