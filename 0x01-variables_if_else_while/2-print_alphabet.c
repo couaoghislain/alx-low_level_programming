@@ -15,6 +15,6 @@ int main(void)
 	{
 		putchar(i) ;
 	}
-	/* putchar(''); */
+	getchar();
 	return (0);
 }
