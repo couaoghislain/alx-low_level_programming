@@ -3,15 +3,15 @@
 #include <stdio.h>
 
 /**
-*main - Print Alphabet
+*main - Print Alphabet for (i = 97; i <= 122; i++)
 *Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int i;
+	char i;
 	
-	for (i = 97; i <= 122; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i) ;
 	}
