@@ -13,6 +13,5 @@ int main(void)
 	
 	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
-	printf("");
 	return (0);
 }
