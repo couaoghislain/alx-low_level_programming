@@ -9,6 +9,6 @@
 
 int main(void)
 {
-  putchar('%x');
+  putchar(%x);
 	return (0);
 }
