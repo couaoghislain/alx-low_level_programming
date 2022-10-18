@@ -11,6 +11,6 @@ int add(int n, int j)
 {
 	int r = n + j;
 
-	_putchar(r);
+	_putchar(r + '0');
 	return (1);
 }
