@@ -1,17 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
-*main - Print Alphabet for (i = 97; i <= 122; i++)
+*main - Print Alphabet in lower and upper case
 *Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int (i);
+	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
+	{
+		putchar(i);
+	}
+	for (i = 'A'; i <= 'Z'; i++)
 	{
 		putchar(i);
 	}
