@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
- * main - print all alphabet in lowercase
- * is written by couao
- * Return: 0
- */
+* print_alphabet - print all alphabet in lowercase
+* is written by couao
+*/
 
 void print_alphabet(void)
 {
