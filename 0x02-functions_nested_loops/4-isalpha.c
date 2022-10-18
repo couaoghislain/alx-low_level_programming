@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _isalpha - checks for lowercase character
-*@c: is the char to be verified
-* Return: 1 if char is letter,lowercase or uppercase, otherwise 0.
-*/
+ * _isalpha - check for letter lowercase or uppercase
+ * @c: is the char to be verified
+ * Return: 1 if char is letter,lowercase or uppercase, otherwise 0.
+ */
 
 int _isalpha(int c)
 {
