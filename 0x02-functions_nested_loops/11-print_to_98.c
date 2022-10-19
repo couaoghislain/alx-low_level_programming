@@ -18,6 +18,8 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
+			else if (n == 98)
+				printf("98");
 			n++;
 		}
 	}
@@ -30,10 +32,12 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
+			else if (n == 98)
+				printf("98");
 			n--;
 		}
 	}
-	else
+	else if (n == 98)
 	{
 		printf("98");
 	}
