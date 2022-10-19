@@ -9,7 +9,7 @@
 
 void print_times_table(int n)
 {
-	int n, rone, cone, d;
+	int rone, cone, d;
 
 	if ((n < 0) || (n > 15))
 	{
