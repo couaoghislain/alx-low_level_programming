@@ -8,9 +8,9 @@
 
 int _srtlen(char *s)
 {
-	in length = 0;
+	int length = 0;
 
-	while (s[lenght])
-		lenght++;
-	return (lenght);
+	while (s[length])
+		length++;
+	return (length);
 }
