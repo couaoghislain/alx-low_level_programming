@@ -4,7 +4,7 @@ int _calcul_sqrt(int num, int r);
 int _sqrt_recursion(int n);
 
 /**
- * _calcul_sqrt - Function to finds the natural square
+ * calcul_sqrt - Function to finds the natural square
  * @num: the number to find square root
  * @r: the root should be tested
  * Return: root if num have natural square, othercase -1
