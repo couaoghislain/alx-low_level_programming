@@ -9,7 +9,7 @@ int _sqrt_recursion(int n);
  * @r: the root should be tested
  * Return: root if num have natural square, othercase -1
  */
-int _calcul_sqrt(int num, int r)
+int calcul_sqrt(int num, int r)
 {
 	/** cas de carre parfait */
 	if ((r * r) == num)
@@ -19,7 +19,7 @@ int _calcul_sqrt(int num, int r)
 	if ((num % 2) >= 1)
 		return (-1);
 
-	return (_calcul_sqrt(num, (r + 1)));
+	return (calcul_sqrt(num, (r + 1)));
 }
 
 /**
@@ -38,5 +38,5 @@ int _sqrt_recursion(int n)
 		return (1);
 
 	if (n > 1)
-		return (_calcul_sqrt(n, r));
+		return (calcul_sqrt(n, r));
 }
