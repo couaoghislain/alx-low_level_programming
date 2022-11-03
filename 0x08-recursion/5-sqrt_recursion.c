@@ -16,7 +16,7 @@ int calcul_sqrt(int num, int r)
 		return (r);
 
 	/** cas carre pas parfait */
-	if ((num % 2) >= 1)
+	if (r == num / 2)
 		return (-1);
 
 	return (calcul_sqrt(num, (r + 1)));
