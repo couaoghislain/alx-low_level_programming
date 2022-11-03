@@ -30,7 +30,7 @@ int calcul_sqrt(int num, int r)
 
 int _sqrt_recursion(int n)
 {
-	int r;
+	int r = 0;
 
 	if (n < 0)
 		return (-1);
