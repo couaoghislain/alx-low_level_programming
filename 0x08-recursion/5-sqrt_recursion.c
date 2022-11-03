@@ -18,7 +18,8 @@ int _calcul_sqrt(int num, int r)
 	/** cas carre pas parfait */
 	if ((num % 2) >= 1)
 		return (-1);
-	return (_calcul_sqrt((num, r + 1)));
+
+	return (_calcul_sqrt(num, (r + 1)));
 }
 
 /**
@@ -29,6 +30,8 @@ int _calcul_sqrt(int num, int r)
 
 int _sqrt_recursion(int n)
 {
+	int r;
+
 	if (n < 0)
 		return (-1);
 	if (n == 1)
