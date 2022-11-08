@@ -12,8 +12,8 @@
 int main(int argc, char *argv[])
 {
 	int a, b;
-	
-	if (argc == 1 || argc == 2 )
+
+	if (argc == 1 || argc == 2)
 	{
 		printf("Error\n");
 		return (1);
@@ -24,7 +24,9 @@ int main(int argc, char *argv[])
 
 		for (a = 1; a < 3; a++)
 			b *= atoi(argv[a]);
+
 		printf("%d\n", b);
 	}
+
 	return (0);
 }
