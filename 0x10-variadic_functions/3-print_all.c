@@ -32,3 +32,4 @@ void print_int(va_list arg)
 
 	num = va_arg(arg, int);
 	printf("%d", num);
+}
